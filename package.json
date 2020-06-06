@@ -1,0 +1,25 @@
+{
+  "name": "website-cgda",
+  "version": "1.0.0",
+  "description": "2020 Quick Website for CGDA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "author": "Vieko Franetovic <vieko@devolver.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "prettier": "^2.0.5"
+  }
+}

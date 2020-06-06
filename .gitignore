@@ -1,0 +1,7 @@
+node_modules
+.db
+.next
+.env
+.env.build
+.now
+.vercel
