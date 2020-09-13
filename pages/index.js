@@ -4,9 +4,11 @@ import {Styled} from 'theme-ui'
 const Index = () => (
   <div>
     {/* CONTENT */}
+    <Styled.h2>Content</Styled.h2>
     {/* SECTIONS */}
-    <Styled.h1>Hello Vieko</Styled.h1>
+    <Styled.h1>Sections</Styled.h1>
     {/* FOOTER */}
+    <footer sx={{padding: '5rem'}}>Footer</footer>
   </div>
 )
 
