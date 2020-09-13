@@ -1,5 +1,5 @@
 import React from 'react'
-import {Styled} from 'theme-ui'
+import { Styled } from 'theme-ui'
 
 const Index = () => (
   <div>
@@ -8,7 +8,7 @@ const Index = () => (
     {/* SECTIONS */}
     <Styled.h1>Sections</Styled.h1>
     {/* FOOTER */}
-    <footer sx={{padding: '5rem'}}>Footer</footer>
+    <footer sx={{padding: '1rem'}}>Footer</footer>
   </div>
 )
 
