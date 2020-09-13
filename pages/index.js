@@ -1,14 +1,15 @@
 import React from 'react'
-import { Styled } from 'theme-ui'
+import {Styled} from 'theme-ui'
 
 const Index = () => (
-  <div>
+  <div sx={{padding: '2rem 4rem'}}>
     {/* CONTENT */}
     <Styled.h2>Content</Styled.h2>
     {/* SECTIONS */}
-    <Styled.h1>Sections</Styled.h1>
+    <div>About</div>
+    <div>Meetings</div>
     {/* FOOTER */}
-    <footer sx={{padding: '1rem'}}>Footer</footer>
+    <footer>Footer</footer>
   </div>
 )
 
